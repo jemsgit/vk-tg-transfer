@@ -4,7 +4,7 @@ const settings = {
     tag: 'афиша_nycoffee'
   },
   42471820: {
-    tgChannel: '@druzhbasaratov',
+    tgChannel: '@druzhba_saratov',
     tag: 'афиша_дружба'
   }
 }
