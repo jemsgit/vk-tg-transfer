@@ -49,8 +49,8 @@ function escapeVkMarkup(text) {
     if(match[2]) {
       text = text.replace(/\[(.*?)\|(.*?)\]/, match[2]);
     }
+    tagRegex.lastIndex = 0;
     match = tagRegex.exec(text);
-    console.log(match)
   }
   return text;
 }
